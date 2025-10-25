@@ -1,0 +1,33 @@
+{
+  "name": "video-api-project",
+  "version": "1.0.0",
+  "description": "Frontend and Backend for the Video Download API.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "postinstall": "python3 -m pip install --quiet yt-dlp || true",
+    "db:push": "drizzle-kit push"
+  },
+  "dependencies": {
+    "@types/node": "^24.9.1",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "@vitejs/plugin-react": "^5.1.0",
+    "better-sqlite3": "^12.4.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "drizzle-kit": "^0.31.5",
+    "drizzle-orm": "^0.44.7",
+    "express": "^4.19.2",
+    "ffmpeg-for-homebridge": "^2.2.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "typescript": "^5.9.3",
+    "uuid": "^9.0.1",
+    "vite": "^7.1.12",
+    "ws": "^8.18.3"
+  }
+}

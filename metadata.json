@@ -1,0 +1,5 @@
+{
+  "name": "Video Download API Dashboard",
+  "description": "A dashboard to manage API keys, test video download and merge functionality, and provide documentation for a custom video processing API.",
+  "requestFramePermissions": []
+}
